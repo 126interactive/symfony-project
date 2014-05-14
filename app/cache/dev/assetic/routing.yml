@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: 'C:/Users/Justin/git/symfony-project/app/config/routing_dev.yml'
+    resource: 'C:/Users/Justin/symfony-project/app/config/routing_dev.yml'

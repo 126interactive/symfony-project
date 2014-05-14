@@ -33,41 +33,13 @@ $minorProblems = $symfonyRequirements->getFailedRecommendations();
     <body>
         <div id="content">
             <div class="header clear-fix">
-                <div class="header-logo">
-                    <img src="bundles/framework/images/logo_symfony.png" alt="Symfony" />
-                </div>
-
-                <div class="search">
-                  <form method="get" action="http://symfony.com/search">
-                    <div class="form-row">
-
-                      <label for="search-id">
-                          <img src="bundles/framework/images/grey_magnifier.png" alt="Search on Symfony website" />
-                      </label>
-
-                      <input name="q" id="search-id" type="search" placeholder="Search on Symfony website" />
-
-                      <button type="submit" class="sf-button">
-                          <span class="border-l">
-                            <span class="border-r">
-                                <span class="btn-bg">OK</span>
-                            </span>
-                        </span>
-                      </button>
-                    </div>
-                   </form>
-                </div>
+               <h1 class="title">Welcome!</h1>
             </div>
 
             <div class="sf-reset">
                 <div class="block">
                     <div class="symfony-block-content">
-                        <h1 class="title">Welcome!</h1>
-                        <p>Welcome to your new Symfony project.</p>
-                        <p>
-                            This script will guide you through the basic configuration of your project.
-                            You can also do the same by editing the ‘<strong>app/config/parameters.yml</strong>’ file directly.
-                        </p>
+                     
 
                         <?php if (count($majorProblems)): ?>
                             <h2 class="ko">Major problems</h2>

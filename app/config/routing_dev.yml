@@ -12,6 +12,9 @@ _configurator:
 
 _main:
     resource: routing.yml
+#jConnellHelloBundle routes
+_jconn_hello:
+    resource: "@jConn/HelloBundle/Resources/config/routing.yml"
 
 # AcmeDemoBundle routes (to be removed)
 #_acme_demo:
